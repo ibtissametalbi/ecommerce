@@ -1,9 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 
-function ProductDetail() {
-    import React, { useState, useEffect } from 'react';
-    import { useParams } from 'react-router-dom';
-    
+function ProductDetail() {    
     function ProductDetail() {
         const { id } = useParams(); // Récupère l'ID du produit à partir de l'URL
         const [product, setProduct] = useState(null);
@@ -18,7 +16,7 @@ function ProductDetail() {
     
         const fetchProduct = async (productId) => {
             // Remplacez cette partie par une requête API réelle
-            const response = await fetch(/path/to/your/products/api/${productId});
+            const response = await fetch("/path/to/your/products/api/${productId}");
             return await response.json();
         };
     
@@ -34,8 +32,6 @@ function ProductDetail() {
                 {/* Autres détails du produit */}
             </div>
         );
-    }
-    
-    export default ProductDetail;}
-
+    }   
+}
 export default ProductDetail;

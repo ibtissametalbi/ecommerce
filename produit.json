@@ -1,6 +1,0 @@
-[
-    {"id":1,"designation":"Ordinateur Portable Lenovo IdeaPad 5 15ARE05 (81YQ00LXFE)","price":8040.55,"img":"1.jpg"}, {"id":2,"designation":"Ordinateur Portable Lenovo ThinkBook 15 G3 ACL (21A4001WFE)","price":6040.55,"img":"2.jpg"}, {"id":3,"designation":"Ordinateur Portable Lenovo ThinkPad E14 Gen 4 (21E3009PFE)","price":11950.55,"img":"3.jpg"}, {"id":4,"designation":"Imprimante A3 Multifonction Jet d’encre HP OfficeJetPro ","price":4450.56,"img":"4.jpg"},
-    {"id":5,"designation":"Imprimante Multifonction Laser Monochrome HP LaserJet M141","price":1970.45,"img":"5.jpg"},
-    {"id":6,"designation":"Epson EcoTank L3250 Imprimante multifonction à réservoirs","price":1369.78,"img":"6.jpg"},
-    {"id":7,"designation":"Écran 23,8 Full HD Lenovo ThinkVision S24e-20 (62AEKAT2EU)","price":1456.78,"img":"7.jpg"}, {"id":8,"designation":"Imprimante Multifonction Jet d'encre Canon PIXMA TS3440 ","price":567.88,"img":"8.jpg"}
-    ]

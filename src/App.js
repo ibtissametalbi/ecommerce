@@ -1,24 +1,18 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Header from './components/Header';
-import ProductList from './components/ProductList';
+import { BrowserRouter as Router, Route,Routes } from 'react-router-dom';
 import ProductDetail from './components/ProductDetail';
+import Accueil from './components/Accueil';
 import Cart from './components/Cart';
-import Total from './components/Total';
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Header />
-        <Switch>
-          <Route path="/" exact component={ProductList} />
-          <Route path="/ProductDetail/:id" component={ProductDetail} />
-          <Route path="/Cart" component={Cart} />
-        </Switch>
-        <Total />
-      </div>
-    </Router>
+        <>
+        <Routes>
+          <Route path="/" exact element={<Accueil/>}/>
+          <Route path="/ProductDetail/:id" element={<ProductDetail/>} />
+          <Route path="/Cart" element={<Cart/>} />
+        </Routes>
+        </>
   );
 }
 
